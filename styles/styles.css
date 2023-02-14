@@ -43,15 +43,13 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-	background-image: url(/images/bg\ img.jpg);
-	
+	background-color: #d86cad;
 
 
 }
 
 h1 {
 	text-align: center;
-  color: rgb(209, 84, 159);
 }
 
 label {
@@ -121,38 +119,7 @@ span:hover{
 
 
 
-@keyframes heart {
-	0% {
-		transform: scale(0.8) rotate(-1deg);
-		box-shadow: 0px 0px 0px rgba(255, 0, 0, 0.7);
-	}
-	50% {
-		transform: scale(1) rotate(-1deg);
-		box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.7);
-	}
-	100% {
-		transform: scale(0.8) rotate(-45deg);
-		box-shadow: 0px 0px 0px rgba(255, 0, 0, 0.7);
-	}
-}
-
-.heart {
-	display: inline-block;
-	animation: heart 3s infinite;
-}
 
 
 
-/* button {
-	animation: shake 0.5s infinite;
-} */
-
-
-.heart{
-  background-repeat: no-repeat;
-  background-position: left;
-  background-position-x:right;
-  background-position-y: bottom;
-
-}
 
